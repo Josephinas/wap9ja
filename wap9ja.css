@@ -1,0 +1,140 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav-wrap{
+    width: 100%;
+}
+.main-nav-wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+    padding: 18px;
+    margin: -5px 0px;;
+}
+.icon-wrap{
+    background-color: black;
+    padding: 16px;
+    margin: -25px -3px -29px -18px;  
+}
+.icon-wrap i{
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+}
+.home-page h1 a{
+    position: relative;
+    left: -394px;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+span{
+    margin: 4px;
+    color: greenyellow;
+}
+.inner-nav{
+    position: relative;
+    left: -37px;
+}
+.inner-nav a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: capitalize;
+}
+                     /* END OF NAV STYLE  */
+.first-section{
+    width: 100%;
+   
+}
+.inner-section{
+    width: 80%;
+    display: flex;
+}
+
+.trending-post{
+    padding: 40px;
+    margin: -10px -8px;
+}
+.trending-post h1{
+    text-transform: uppercase;
+    color: gray;
+    padding: 46px;
+    margin: -15px 25px;
+}
+.img-wrap-left img{
+    width: 64vh;
+    border-radius: 7px;
+    height: 55vh;
+}
+.img-wrap-right{
+    display: flex;
+    width: 250%;
+    padding: 53px;
+    margin: 44px -86px;
+}
+.inner-movie-wrap{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    width: 150%;
+    margin: 30px auto;
+    padding: 0px;
+    gap: 8px;
+    position: relative;
+    left: 207px;
+    top: -10px;
+}
+
+.img-wrap-right h1{
+    position: relative;
+    left: 560px;
+    top: -62px;
+    color: gray;
+    text-transform: uppercase;
+    padding: 11px;
+    margin: -9px;
+    width: 100%;
+}
+
+.artist{
+    display: grid;
+    justify-content: start;
+    padding: 30px;
+    position: relative;
+    top: -101px;
+    margin: 5px 3px -26px 29px;
+}
+.artist a{
+    padding: 10px;
+    text-decoration: none;
+    color: green;
+    text-transform: capitalize;
+    box-shadow: 0px 0px 4px #000;
+    margin: 3px 0px;
+    width: 547px;
+    text-align: initial;
+    }
+.music-artist h1{
+    top: -84px;
+    left: 218px;
+    position: relative;
+    text-transform: uppercase;
+    color: gray;
+}
+
+.copy-right p{
+    background-color: #000;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+    font-size: small;
+}
+
+
+
+
